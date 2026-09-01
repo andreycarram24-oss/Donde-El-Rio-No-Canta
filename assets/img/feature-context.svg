@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Aurix context engine">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#181725"/>
+      <stop offset="1" stop-color="#0d0d14"/>
+    </linearGradient>
+    <radialGradient id="cglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb347" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#cbg)" rx="16"/>
+  <circle cx="480" cy="270" r="200" fill="url(#cglow)"/>
+
+  <!-- central node -->
+  <circle cx="480" cy="270" r="52" fill="#14141f" stroke="#ffb347" stroke-width="1.5"/>
+  <text x="480" y="276" font-family="Instrument Serif, Georgia, serif" font-size="22" fill="#ffb347" text-anchor="middle">aurix</text>
+
+  <!-- connection lines -->
+  <g stroke="#ffffff" stroke-opacity="0.15" stroke-width="1" fill="none">
+    <path d="M 480 218 Q 420 150 300 130"/>
+    <path d="M 480 218 Q 560 150 680 120"/>
+    <path d="M 428 270 Q 300 260 180 220"/>
+    <path d="M 532 270 Q 680 280 800 230"/>
+    <path d="M 480 322 Q 420 400 280 420"/>
+    <path d="M 480 322 Q 560 400 690 420"/>
+  </g>
+
+  <!-- source cards -->
+  <g font-family="Inter, sans-serif" font-size="13">
+    <rect x="220" y="100" width="160" height="60" rx="12" fill="#1a1a28" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="242" cy="130" r="12" fill="#ff6b9a" fill-opacity="0.2"/>
+    <text x="242" y="135" fill="#ff6b9a" text-anchor="middle" font-size="12">S</text>
+    <text x="260" y="125" fill="#e8e7ef">Slack</text>
+    <text x="260" y="144" fill="#9a98ad" font-size="11">#support · #ops</text>
+
+    <rect x="600" y="90" width="160" height="60" rx="12" fill="#1a1a28" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="622" cy="120" r="12" fill="#8c7bff" fill-opacity="0.2"/>
+    <text x="622" y="125" fill="#8c7bff" text-anchor="middle" font-size="12">G</text>
+    <text x="640" y="115" fill="#e8e7ef">GitHub</text>
+    <text x="640" y="134" fill="#9a98ad" font-size="11">customer-api</text>
+
+    <rect x="100" y="190" width="160" height="60" rx="12" fill="#1a1a28" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="122" cy="220" r="12" fill="#4ade80" fill-opacity="0.2"/>
+    <text x="122" y="225" fill="#4ade80" text-anchor="middle" font-size="12">L</text>
+    <text x="140" y="215" fill="#e8e7ef">Linear</text>
+    <text x="140" y="234" fill="#9a98ad" font-size="11">OPS-221</text>
+
+    <rect x="720" y="200" width="160" height="60" rx="12" fill="#1a1a28" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="742" cy="230" r="12" fill="#ffb347" fill-opacity="0.2"/>
+    <text x="742" y="235" fill="#ffb347" text-anchor="middle" font-size="12">$</text>
+    <text x="760" y="225" fill="#e8e7ef">Stripe</text>
+    <text x="760" y="244" fill="#9a98ad" font-size="11">events · charges</text>
+
+    <rect x="200" y="390" width="160" height="60" rx="12" fill="#1a1a28" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="222" cy="420" r="12" fill="#60a5fa" fill-opacity="0.2"/>
+    <text x="222" y="425" fill="#60a5fa" text-anchor="middle" font-size="12">N</text>
+    <text x="240" y="415" fill="#e8e7ef">Notion</text>
+    <text x="240" y="434" fill="#9a98ad" font-size="11">team wiki</text>
+
+    <rect x="610" y="390" width="160" height="60" rx="12" fill="#1a1a28" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="632" cy="420" r="12" fill="#a78bfa" fill-opacity="0.2"/>
+    <text x="632" y="425" fill="#a78bfa" text-anchor="middle" font-size="12">P</text>
+    <text x="650" y="415" fill="#e8e7ef">Postgres</text>
+    <text x="650" y="434" fill="#9a98ad" font-size="11">analytics DB</text>
+  </g>
+</svg>
